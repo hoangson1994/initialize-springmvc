@@ -13,6 +13,7 @@ public class HomeController {
         modelAndView.addObject("message", "Hello Spring MVC");
         modelAndView.addObject("message", "test git 1");
         modelAndView.addObject("message", "test git 2");
+        modelAndView.addObject("message", "test git 3");
         return modelAndView;
     }
 }
