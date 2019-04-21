@@ -11,6 +11,7 @@ public class HomeController {
         ModelAndView modelAndView = new ModelAndView("home");
         modelAndView.addObject("title", "Spring MVC");
         modelAndView.addObject("message", "Hello Spring MVC");
+        modelAndView.addObject("message", "test git 1");
         return modelAndView;
     }
 }
