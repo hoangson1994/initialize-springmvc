@@ -15,6 +15,7 @@ public class HomeController {
         modelAndView.addObject("message", "test git 2");
         modelAndView.addObject("message", "test git 3");
         modelAndView.addObject("message", "test git 4");
+        modelAndView.addObject("message", "test git 5");
         return modelAndView;
     }
 }
